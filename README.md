@@ -5,7 +5,7 @@ Aplicación Android hecha con **React Native (TypeScript)** y un módulo nativo 
 ## Funcionalidades
 
 - **Navegador web integrado con sesión y tokens**: entra a tus sitios favoritos e inicia sesión (YouTube, redes sociales, sitios privados, cursos, etc.). MediaFetch comparte automáticamente las cookies de sesión (`CookieManager` nativo, incluyendo `HttpOnly`), el `User-Agent`, `Referer` y captura streams/tokens de red (`.m3u8`, `.mp4`, `.mp3` y headers `Authorization`) mientras navegas.
-- **Pegar cualquier enlace** con un toque desde el portapapeles (o usar *Compartir → MediaFetch* desde YouTube, TikTok, Instagram, navegador, etc.).
+- **Pegar cualquier enlace** con un toque desde el portapapeles (o usar _Compartir → MediaFetch_ desde YouTube, TikTok, Instagram, navegador, etc.).
 - **Vista previa del medio** antes de descargar (título, miniatura, canal/autor y duración).
 - **Dos formatos de salida**:
   - **MP4 (Video + Audio HD)**: calidades `Mejor`, `1080p`, `720p`, `480p` y `360p` con preferencia por códec H.264/AAC para máxima compatibilidad en Android y WhatsApp. Guarda en `Descargas` (`Download`).
@@ -58,7 +58,8 @@ DonwloadMusic/
 ## Cómo conectar tu celular, compilar y ejecutar
 
 ### 1. Prepara tu teléfono Android
-1. En tu celular ve a **Ajustes → Acerca del teléfono** y toca **7 veces** en **Número de compilación** para activar las *Opciones de desarrollador*.
+
+1. En tu celular ve a **Ajustes → Acerca del teléfono** y toca **7 veces** en **Número de compilación** para activar las _Opciones de desarrollador_.
 2. Entra a **Ajustes → Sistema → Opciones de desarrollador** y activa **Depuración por USB**.
 3. Conecta el celular por USB a tu PC y acepta el diálogo **"¿Permitir depuración por USB?"** en la pantalla del celular.
 4. Verifica que Windows lo reconoce:
@@ -68,6 +69,7 @@ DonwloadMusic/
    Debe aparecer tu dispositivo con estado `device`.
 
 ### 2. Compilar e instalar directo en tu celular
+
 Tienes estas opciones según lo que necesites:
 
 - **Instalación rápida directa para teléfonos modernos (`arm64-v8a`, APK independiente):**
